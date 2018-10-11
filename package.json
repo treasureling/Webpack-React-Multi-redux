@@ -1,7 +1,7 @@
 {
-  "name": "webpack-react-multiapp",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "webpack react multi app build ",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,17 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lvdengmei/Webpack-React-MultiAPP.git"
+    "url": "git+https://github.com/treasureling/Webpack-React-Multi-redux.git"
   },
   "keywords": [
     "webpack",
     "react",
     "multiApp"
   ],
-  "author": "lvdengmei",
+  "author": "{{author}}",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lvdengmei/Webpack-React-MultiAPP/issues"
+    "url": "https://github.com/treasureling/Webpack-React-Multi-redux/issues"
   },
   "eslintConfig": {
     "extends": "react-app",
@@ -35,7 +35,7 @@
       "jsx-a11y/href-no-hash": 2
     }
   },
-  "homepage": "https://github.com/lvdengmei/Webpack-React-MultiAPP#readme",
+  "homepage": "https://github.com/treasureling/Webpack-React-Multi-redux#readme",
   "dependencies": {
     "antd": "^3.9.2",
     "babel-polyfill": "^6.26.0",
