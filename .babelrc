@@ -1,0 +1,21 @@
+{
+  "presets": ["react","env"],
+  "env":{
+    // only enable it when process.env.NODE_ENV is 'development' or undefined
+    "development":{
+          "presets":["react-hmre"]
+        }
+
+  },
+  "plugins": [
+    "transform-runtime",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  ]
+}
+
